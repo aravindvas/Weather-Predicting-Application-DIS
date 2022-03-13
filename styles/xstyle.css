@@ -99,6 +99,7 @@
 	 transition: ease-in-out 600ms;
 }
 .back {
+	color: grey;
   display: flex;
   border-radius: 15px;
   background-position: center;
