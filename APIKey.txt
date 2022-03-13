@@ -1,0 +1,41 @@
+f6c1aa347d9af6983f7608391626612d
+For Current Weather:
+end-point = 'https://api.openweathermap.org/data/2.5/weather?q=tampa&units=metric&appid=f6c1aa347d9af6983f7608391626612d'
+
+For Weather Forecasting:
+https://api.openweathermap.org/data/2.5/onecall?lat=27.9475&lon=-82.4584&units=metric&exclude=currently,daily,minutely,alerts&appid=f6c1aa347d9af6983f7608391626612d
+
+example data:
+{"coord":
+	{"lon":-82.4584,
+	"lat":27.9475},
+"weather":
+	[{"id":804,
+	"main":"Clouds",
+	"description":"overcast clouds",
+	"icon":"04n"}],
+"base":"stations",
+"main":	{"temp":12.33,
+	"feels_like":10.79,
+	"temp_min":10.1,
+	"temp_max":14.41,
+	"pressure":1022,
+	"humidity":45},
+"visibility":10000,
+"wind":
+	{"speed":6.69,
+	"deg":20,
+	"gust":8.75},
+"clouds":
+	{"all":100},
+"dt":1647137851,
+"sys":
+	{"type":2,
+	"id":2005199,
+	"country":"US",
+	"sunrise":1647085368,
+	"sunset":1647128191},
+"timezone":-18000,
+"id":4174757,
+"name":"Tampa",
+"cod":200}
