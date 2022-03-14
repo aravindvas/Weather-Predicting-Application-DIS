@@ -1,10 +1,12 @@
 h1, p{
-  color: grey;
+  color: black;
 }
-hr{
-  border: dotted black 2px;
-  width: 85%;
-  margin: auto;
+hr {
+  border-style: none;
+  border: dotted 6px black;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
 }
 .row{
   margin: 10px 10px;
@@ -18,7 +20,7 @@ hr{
 .hl {
   width: 85%;
   margin: auto;
-  border-top: 3px solid grey;
+  border-top: 3px solid black;
 }
 .cities {
   display: grid;
@@ -45,7 +47,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #EAF6F6;
+  color: #0D4F8B;
 }
 .card{
   margin: 20px 90px;
@@ -63,6 +65,31 @@ img{
 }
 .mrg{
   margin: auto;
+}
+.sklrw {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.t-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.comp-img {
+  width: 25%;
+  float: left;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+.atv-img{
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+.my-img{
+  width: 12%;
 }
 /* .collapsible {
   width: 85%;
